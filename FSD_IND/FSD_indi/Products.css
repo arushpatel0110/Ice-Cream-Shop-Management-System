@@ -1,0 +1,158 @@
+.items {
+    height: 400px;
+}
+
+.main {
+    padding-left: 300px;
+    z-index: 200;
+}
+
+.titlefonts {
+    font-size: 50px;
+}
+
+.fonts {
+    font-size: 30px;
+}
+
+.productsbg {
+    background-color: rgb(154, 217, 243);
+}
+
+.productsbg1 {
+    background-color: rgb(245, 157, 171);
+}
+
+.mt-n5 {
+    margin-top: -3rem !important;
+}
+
+.pt-3 {
+    padding-top: 1rem !important;
+}
+
+.aniproduct:hover {
+    animation-name: XYZ;
+    animation-duration: 0.7s;
+    animation-direction: normal;
+}
+
+@keyframes XYZ {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.aniproduct1:hover {
+    animation-name: ABC;
+    animation-duration: 0.4s;
+    animation-direction: normal;
+}
+
+@keyframes ABC {
+    100% {
+        transform: scale(1.08);
+    }
+}
+
+
+
+.main {
+    background-color: white;
+    z-index: 200;
+    height: 70px;
+    width: 60%;
+    position: fixed;
+    top: 65px;
+    left: 320px;
+    border-radius: 30px;
+}
+
+.n {
+    color: rgb(200, 97, 114);
+    font-family: montserrat;
+    letter-spacing: 2px;
+}
+
+.na {
+    top: 75px;
+    z-index: 200;
+}
+
+
+.h3 {
+    border-radius: 10px;
+    width: 80%;
+    height: 400px;
+    
+}
+
+
+.fav {
+    font-size: 34px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: left;
+}
+
+.fav1 {
+    font-size: 22px;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 30px;
+    text-align: left;
+    color: black;
+
+}
+
+.headfont {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 170px;
+    font-weight: 600;
+}
+
+.pro_des {
+    font-size: 22px;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+
+.main_head_pro {
+    text-align: center;
+    padding-top: 185px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 550;
+
+}
+
+.main_head {
+    padding-bottom: 120px;
+    font-weight: 500;
+    color: rgb(7, 6, 6);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 7px;
+}
+
+
+.product_img {
+    width: 450px;
+    height: 300px;
+    left: 50px;
+    z-index: 1;
+    position: relative;
+    border-radius: 50px;
+}
+
+.product_div {
+    height: 400px;
+    width: 550px;
+    background-color: rgb(244, 195, 203);
+    z-index: 0;
+    position: relative;
+    bottom: 140px;
+}
